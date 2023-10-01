@@ -1,3 +1,8 @@
+# bash
+```
+alias l="ls -1"
+```
+
 # git
 
 `~/.gitconfig`:
