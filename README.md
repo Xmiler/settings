@@ -13,7 +13,7 @@ alias p="python"
 ```
 post-configure
 ```
-for X in l g p; do complete -F _complete_alias $X; done
+for X in l g p; do complete -F _complete_alias $X; done && source ~/.bash_completion.d/complete_alias
 ```
 
 
