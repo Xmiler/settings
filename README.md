@@ -9,11 +9,11 @@ sudo apt install bash-completion && mkdir ~/.bash_completion.d && curl https://r
 
 alias l="ls -1"
 alias g="git"
+alias p="python"
 ```
 post-configure
 ```
-complete -F _complete_alias l
-complete -F _complete_alias g
+for X in l g p; do complete -F _complete_alias $X; done
 ```
 
 
