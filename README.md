@@ -1,9 +1,4 @@
-# env
-```
-sudo apt install bash-completion && mkdir ~/.bash_completion.d && curl https://raw.githubusercontent.com/cykerway/complete-alias/master/complete_alias > ~/.bash_completion.d/complete_alias && source ~/.bash_completion.d/complete_alias
-```
-
-# bash
+# .bashrc
 ```
 # ~/.bashrc
 
@@ -11,7 +6,7 @@ alias l="ls -1"
 ```
 
 
-# git
+# .gitconfig
 
 ```
 # ~/.gitconfig
