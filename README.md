@@ -3,6 +3,9 @@
 # ~/.bashrc
 
 alias l="ls -1"
+memp(){
+    smem -t -k -c pss -P $1 | tail -n1;
+}
 ```
 
 
